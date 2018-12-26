@@ -1,0 +1,43 @@
+.myNav1,.myNav2,.myNav3{
+    width:3rem;
+    height: 0.2rem;
+    margin-top: -1.5rem;
+    margin-bottom: 0.1rem;
+}
+.myNav2{
+    margin-top: -2rem;
+}
+.myNav3{
+    margin-top: -2.5rem;
+}
+.myNavT{
+    height: 3.2rem;
+}
+.myNavT:focus{
+    height: 3.2rem;
+    outline-color:rgba(255, 255, 255, 0) !important;
+}
+.myBig{
+    font-size: 2.2rem;
+}
+.myBgColor{
+    background: rgba(255,255,255,0.6);
+}
+.myNavHover{
+    transition: all 0.4s linear;
+}
+.myNavHover:hover{
+    color: orangered !important;
+}
+.myM{
+    margin-left: 50%;
+}
+.myIndex{
+   position: fixed;
+   z-index: 999 !important;
+   left: 0;
+   top: 0;
+}
+.myUser{
+    cursor: pointer;
+}

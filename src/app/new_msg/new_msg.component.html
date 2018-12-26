@@ -1,0 +1,23 @@
+<div id="new_msg">
+    <form action="">
+        <div class="new_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">用户名:</div>
+                    <div class="col-10"><input type="text" id="uname" name="uname"><br></div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-1">请留言:</div>
+                    <div class="col-10">
+                        <textarea name="msg" id="msg" cols="100" rows="10" placeholder="Message(最多能150字哦，多打的字留言板里显示不出来的哦Hi~ o(*￣▽￣*)ブ)" ></textarea>
+                    </div>
+                </div>
+            </div>
+            <div style="display: none"></div>
+            <div class="ml-3 mt-4">
+                <button class="btn btn-info mr-3" (click)="submit()" routerLink="/msg">提交</button>
+                <button type="reset" class="btn btn-danger">重置</button>
+            </div>
+        </div>
+    </form>
+</div>

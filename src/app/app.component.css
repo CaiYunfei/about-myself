@@ -1,0 +1,9 @@
+.hiddenAll{
+    display: none;
+}
+.showAll{
+    display: block;
+}
+h1{
+    color: #ff0000;
+}

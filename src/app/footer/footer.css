@@ -1,0 +1,15 @@
+.myHeight{
+    height: 14%;
+}
+.mySub{
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.mySub:hover{
+    background: orangered !important;
+    border: 0 orangered;
+}

@@ -1,0 +1,14 @@
+<div [class]="ifShow">
+        <ng-header></ng-header>
+        <ng-carousel (mouseenter)="goin()"></ng-carousel>
+        <ng-about (mouseenter)="toTopin()"></ng-about>
+        <ng-nl (mouseenter)="toTopin()"></ng-nl>
+        <ng-draw (mouseenter)="toTopin()"></ng-draw>
+        <ng-face (mouseenter)="toTopin()"></ng-face>
+        <ng-love (mouseenter)="toTopin()"></ng-love>
+        <ng-email (mouseenter)="toTopin()"></ng-email>
+        <ng-footer (mouseenter)="toTopin()"></ng-footer>
+        <a id="toTop" (click)="goToTop()" [class]="toTopState">
+            <img [src]="toTop" width="80%" alt="" class="myTop">
+        </a>
+</div>

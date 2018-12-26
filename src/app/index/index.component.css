@@ -1,0 +1,36 @@
+/*回到顶部*/
+#toTop{
+    position: fixed;
+    top:36rem;
+    left: 80rem;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.hid{
+    display: none;
+}
+.chuxian{
+    display: block;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    #toTop{
+        position: fixed;
+        top:36rem;
+        left: 33rem;
+        z-index: 999;
+        cursor: pointer;
+        transition: all 0.4s linear;
+    }
+}
+
+@media screen and (max-width:600px){
+    #toTop{
+        position: fixed;
+        top:39rem;
+        left: 27.5rem;
+        z-index: 999;
+        cursor: pointer;
+        transition: all 0.4s linear;
+    }
+}

@@ -1,0 +1,29 @@
+.myFont{
+    font-size: 3rem;
+}
+#email{
+    background: #f2fbfa;
+}
+.myImgs{
+    display: inline-block;
+    width: 2.5rem;
+    height:2.5rem;
+}
+.myBigFont{
+    font-size: 1.1rem;
+}
+.myInput{
+    border:0.15rem solid gray;
+    padding: 0.5rem;
+    width: 100%;
+}
+.myText{
+    border:0.15rem solid gray;
+    padding: 0.5rem;
+    width: 100%;
+}
+.myButton{
+    border:0.15rem solid gray;
+    padding: 0.5rem;
+    width: 25%;
+}

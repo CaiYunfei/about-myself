@@ -1,0 +1,45 @@
+#face{
+    background-image: url('../../img/mybg1.jpg');
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.myFont{
+    font-size: 3.5rem;
+}
+.myF1{
+    width: 15.93rem;
+    height: 23.93rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem rgba(177, 173, 173,0.7);
+    position: relative;
+}
+.myBix{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    box-shadow: 0.7rem 0.7rem 0.7rem rgba(177, 173, 173,0.7);
+    opacity: 0;
+    transform: rotateY(0deg);
+    transition: all 0.5s linear;
+}
+.myF1:hover .myBix{
+    transform: rotateY(-360deg);
+    opacity: 1;
+    z-index: 800;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .myF1{
+        width: 15.93rem;
+        height: 23.93rem;
+        margin-top:2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .myF1{
+        width: 15.93rem;
+        height: 23.93rem;
+        margin-top:2rem;
+    }
+}

@@ -1,0 +1,30 @@
+<div id="register">
+    <div class="register_main p-3">
+        <h4 class="text-center myFontCR font-weight-bold">注&nbsp;&nbsp;&nbsp;&nbsp;册</h4>
+        <div id="uname_msg" class="reg_msg text-danger">{{uname_msg}}</div>
+        <div class="user_register">
+            <img src="../../img/user.png" class="" width="10%" alt="">
+            <input [(ngModel)]="uname_value" id="register_uname" type="text" name="uname" class="reg_name" placeholder="请设置您的用户名" (focus)="uname_focus()" (blur)="uname_blur()">
+        </div>
+
+        <div id="upwd_msg" class="reg_msg text-danger">{{upwd_msg}}</div>
+        <div class="user_register">
+            <img src="../../img/password.png" class="" width="10%" alt="">
+            <input [(ngModel)]="upwd_value" id="register_upwd" type="password" name="upwd" class="reg_name" placeholder="请设置您的密码" (focus)="upwd_focus()" (blur)="upwd_blur()">
+        </div>
+
+        <div id="cpwd_msg" class="reg_msg text-danger">{{cpwd_msg}}</div>
+        <div class="user_register">
+            <img src="../../img/password.png" width="10%" alt="">
+            <input [(ngModel)]="cpwd_value" id="register_cpwd" type="password" name="cpwd" class="reg_name" placeholder="请再次确认您要设置的密码" (focus)="cpwd_focus()" (blur)="cpwd_blur()">
+        </div>
+
+        <div id="email_msg" class="reg_msg text-danger">{{email_msg}}</div>
+        <div class="user_register">
+            <img src="../../img/reg_email.png" width="10%" alt="">
+            <input [(ngModel)]="email_value" id="register_email" type="email" name="email" class="reg_name" placeholder="请输入您的邮箱"  (focus)="email_focus()" (blur)="email_blur()">
+        </div>
+        <input type="checkbox" class="my_margin" style="outline: none;" [(checked)]="regChecked" (click)="isAgree()"><span class="mySmall">同意《互联网安全协议》</span>
+        <input class="btn btn-danger myBtnReg" type="submit" [(disabled)]="regAgree" value="注册" (click)="toRegister()">
+    </div>
+</div>

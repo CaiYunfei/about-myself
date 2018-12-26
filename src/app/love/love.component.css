@@ -1,0 +1,64 @@
+.myFont{
+    font-size: 3.5rem;
+}
+.myCol1{
+    background-color:rgb(204, 109, 204);
+    width: 100%; 
+    height: 100%;
+    padding: 1rem;
+}
+.myCol2{
+    background-color:rgb(164, 198, 243);
+    width: 100%; 
+    height: 100%;
+    padding: 1rem;
+}
+.myCol3{
+    background-color:rgb(164, 198, 243);
+    width: 100%; 
+    height: 100%;
+    padding: 1rem;
+}
+.myL{
+    margin-left: 5rem;
+    width: 20rem;
+    height: 30rem;
+}
+.myL1{
+    margin-left: 10rem;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .lovely{
+        display: block !important;
+    }
+    .myL{
+        margin-left:0; 
+        margin-top: 3rem;
+        width: 41rem;
+        height: 38rem;
+    }
+    .myL>img{
+        height: 18rem;
+    }
+    .myL>div>p{
+        font-size: 1.4rem !important;
+    }
+}
+
+@media screen and (max-width:600px){
+    .lovely{
+        display: block !important;
+    }
+    .myL{
+        margin-left:0; 
+        margin-top: 3rem;
+        width: 20rem;
+        height: 40rem;
+    }
+    .myL>img{
+        height: 18rem;
+    }
+    .myL>div>p{
+        font-size: 1.1rem !important;
+    }
+}

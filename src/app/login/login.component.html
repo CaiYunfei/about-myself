@@ -1,0 +1,17 @@
+<div id="login">
+    <div class="login_main p-3">
+        <h4 class="font-weight-bold text-center myFontC">请 登 录 进 入 留 言 板</h4>
+        <div class="user_login ml-5 p-1 mt-4 mb-4">
+            <img src="../../img/user.png" width="10%" alt="">
+            <input id="login_uname" name="uname" type="text" class="user_name inputUser" placeholder="请输入您的用户名~">
+        </div>
+        <div class="user_login ml-5 p-1 mb-4">
+            <img src="../../img/password.png" width="10%" alt="">
+            <input id="login_password" name="upwd" type="password" class="user_name inputUser" placeholder="请输入您的密码~">
+        </div>
+        <div class="container pl-5 pr-5 mb-3">
+            <button class="btn ml-5 myBtn btn-success" (click)="toLogin()">登录</button>
+            <button class="btn ml-5 myBtn btn-danger" routerLink="/register">注册</button>
+        </div>
+    </div>
+</div>

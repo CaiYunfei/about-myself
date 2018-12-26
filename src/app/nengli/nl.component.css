@@ -1,0 +1,46 @@
+.myFont{
+    font-size: 4rem;
+    font-family: inherit;
+}
+.myNl{
+    background-color: #f2fbfa;
+}
+.mySquare{
+    width: 15.9rem;
+    height: 19rem;
+    background-color: #ffffff;
+    border: 0.0625rem solid gray;
+}
+.myImg{
+    width: 50%;
+    margin-top: 4rem;
+    margin-left:4rem;
+}
+.myPHP{
+    margin-top:4rem;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .mySquare{
+        width: 19rem;
+        height: 19rem;
+        background-color: #ffffff;
+        border: 0.0625rem solid gray;
+        margin-left: 2rem;
+        margin-top:3rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mySquare{
+        width: 25rem;
+        height: 19rem;
+        background-color: #ffffff;
+        border: 0.0625rem solid gray;
+        margin-top: 3rem;
+    }
+    .myImg{
+        width: 50%;
+        margin-top: 2rem;
+        margin-left:6rem;
+    }
+}

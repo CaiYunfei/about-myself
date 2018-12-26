@@ -1,0 +1,35 @@
+#msg{
+    background: url('../../img/msgBg.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 45.5rem;
+}
+.myBtnM{
+    width: 8rem !important;
+    padding: 0.3rem;
+}
+.msg_main{
+    width: 18rem;
+    padding: 1rem;
+    background: #ffffff;
+    box-shadow: 0.2rem 0.2rem 0.2rem gray;
+}
+.msg_hr{
+    background-color: black;
+    height: 0.05rem;
+    margin: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.7rem;
+}
+.mName{
+    font-size: 1.8rem;
+}
+.msg_time{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+.mySmallFont{
+    font-size: 0.9rem;
+    cursor: pointer;
+    color:blue !important;
+}

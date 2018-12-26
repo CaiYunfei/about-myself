@@ -1,0 +1,30 @@
+<div id="msg">
+    <div class="d-flex flex-wrap container w-75 p-3">
+        <div class="col-md-4 col-12">
+            <h1 class="font-weight-bold text-info">留 言 板</h1>
+        </div>
+        <div class="col-md-4 col-12">
+            <button class="btn btn-danger myBtnM font-weight-bold" routerLink="/new_msg">发 留 言</button>
+        </div>
+        <div class="col-md-4 col-12">
+            <button class="btn btn-danger myBtnM font-weight-bold" routerLink="">返回首页</button>
+        </div>
+    </div>
+
+    <div class="ml-5 w-100 pl-5 d-flex flex-wrap">
+        <div *ngFor="let item of msgs;let myIndex=index" class="msg_main mr-3 mt-4">
+            <div class="">
+                <span class="mName">{{msgs[myIndex].mName}}</span>
+                <span class="msg_time text-muted offset-6">{{msgs[myIndex].mTime | date:'yyyy-MM-dd'}}</span>
+                <hr class="msg_hr">
+                <p>{{msgs[myIndex].mContent}}</p>
+                <p id="{{msgs[myIndex].mid}}" style="display: none">{{msgs[myIndex].mid}}</p>
+                <div class="float-right">
+                    <a (click)="delete(msgs[myIndex].mid)" class="mySmallFont">删除</a> |
+                    <a routerLink="/update_msg/{{msgs[myIndex].mid}}" class="mySmallFont">修改</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<audio src="../../miusc/langrenpipa.wav" autoplay></audio>

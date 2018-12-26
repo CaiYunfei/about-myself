@@ -1,0 +1,39 @@
+.myFont{
+    font-size: 3.5rem;
+    font-family: inherit;
+}
+.myPhoto{
+    height: 22.12rem;
+}
+.myPs{
+    width: 14.4rem;
+    transition: all 0.3s linear;
+}
+.myPs:hover{
+    transform: scale(1.2);
+    z-index: 999;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .myPs{
+        width: 14.4rem;
+        margin-left:0 !important;
+        height: 100% !important;
+        margin-top:2rem;
+    }
+    .myPhoto{
+        height: 35rem;
+    }
+}
+@media screen and (max-width:600px){
+    .myPs{
+        width: 100%;
+        margin-left:0 !important;
+        height: 100% !important;
+        margin-top:2rem;
+    }
+    .myPhoto{
+        height: 30rem;
+    }
+}
+
